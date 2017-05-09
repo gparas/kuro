@@ -1,7 +1,9 @@
 {
   "globals": {
-    "title": "Acme Site",
-    "description"  : "John Doe",
-    "uri": "http://example.com"
+    "title": "KURO Global Mobility",
+    "description": "KURO Global Mobility provides bespoke, premium ground transportation solutions in accordance with client-specific requirements and in compliance with company and industry standards.",
+    "mail": "ops@kuroglobal.com",
+    "phone": "+49 32221097321",
+    "uri": "http://www.kuroglobal.com/"
   }
 }

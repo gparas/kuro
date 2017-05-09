@@ -12,7 +12,9 @@ html
     != partial("_shared/navbar")
     if current.source === 'index'
       section.bloc-header.bloc-home-header
-    div.container.bloc
-      div.row.justify-content-md-center
-        div.col-md-6
-          != yield
+    section.bloc(class=(current.source === 'index' ? "bloc-muted" : ""))
+      div.container
+        div.row.justify-content-md-center
+          div.col-lg-6
+            != yield
+    != partial("_shared/footer")

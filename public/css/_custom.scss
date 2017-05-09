@@ -33,12 +33,27 @@ $enable-grid-classes:       true;
 $enable-print-styles:       false;
 
 
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$headings-margin-bottom:     1.5rem;
+$headings-font-weight:       400;
+
+
 // Buttons
 //
 // For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-border-radius:              100px;
+$btn-padding-y:        .75rem;
+$btn-padding-x:        1.5rem;
+
+$btn-border-radius:    100px;
+
+
 
 // Navbar
+
+$navbar-light-color:  $gray-dark;
 
 $navbar-light-toggler-border:       transparent;
