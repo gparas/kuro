@@ -1,0 +1,14 @@
+{
+  "name": "kuro",
+  "version": "1.0.0",
+  "description": "KURO Global Mobility",
+  "main": "index.jade",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uikit": "^3.0.0-beta.22"
+  }
+}

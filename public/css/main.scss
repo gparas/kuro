@@ -1,0 +1,64 @@
+// Core variables and mixins
+@import "custom";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Core CSS
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/buttons";
+
+// Components
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+
+// Utility classes
+@import "../../node_modules/bootstrap/scss/utilities";
+
+
+body{
+  margin: 0;
+}
+
+.bloc{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @media (min-width: 767px){
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.bloc-header{
+  position: relative;
+  padding: 80px 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+
+  @media (min-width: 767px){
+    padding: 250px 0;
+  }
+}
+
+.bloc-home-header{
+  background-image: url("../images/home-header.jpg")
+}
+
+.main{
+  position: relative;
+  padding: 8rem 8% 6rem 0;
+  
+  .bg{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #f5f5f5;
+  }
+}
