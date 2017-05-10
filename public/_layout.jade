@@ -1,11 +1,18 @@
 doctype
-html
+html(lang="en")
   head
     meta(charset='utf8')
     title #{ title }
     
     meta(name="description" content="#{ description }")
     meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    meta(property="og:type" content="website")
+    meta(property="og:title" content="#{ title }")
+    meta(property="og:image" content="images/logo-square.png")
+    meta(property="og:description" content="#{ description }")
+
+    link(rel="shortcut icon" href="favicon.png" type="image/x-icon")
 
     link(rel="stylesheet" href="css/main.css")
   body
@@ -15,6 +22,6 @@ html
     section.bloc(class=(current.source === 'index' ? "bloc-muted" : ""))
       div.container
         div.row.justify-content-md-center
-          div.col-lg-6
+          div.col-lg-7
             != yield
     != partial("_shared/footer")

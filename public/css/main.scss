@@ -11,7 +11,7 @@
 @import "../../node_modules/bootstrap/scss/buttons";
 
 // Components
-@import "../../node_modules/bootstrap/scss/transitions";
+// @import "../../node_modules/bootstrap/scss/transitions";
 @import "../../node_modules/bootstrap/scss/nav";
 @import "../../node_modules/bootstrap/scss/navbar";
 
@@ -47,7 +47,7 @@ body{
   position: relative;
   padding: 80px 0;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: left top;
   background-attachment: fixed;
   background-size: cover;
 
@@ -68,9 +68,7 @@ body{
 
 .navbar-text{
   font-weight: 200;
-  @include media-breakpoint-up(lg){
-    font-size: $font-size-lg;
-  }
+  font-size: $font-size-lg;
 }
 
 .navbar-toggler-right{
@@ -78,6 +76,50 @@ body{
   transform: translateY(-50%);
 }
 
+#overlayNav{
+  @include media-breakpoint-down(md){
+    position: fixed;
+    height: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0, 0.9);
+    padding: 3em;
+    text-align: center;
+    overflow-x: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    > .navbar-text{
+      color: #fff;
+    }
+  }
+}
+
+.closeNav {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #818181;
+  
+  @include hover-focus{
+    color: #f1f1f1;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  @include media-breakpoint-down(md){
+    display: block;
+  }
+}
 
 // Footer
 //
