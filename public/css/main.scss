@@ -46,8 +46,8 @@ body{
   position: relative;
   padding: 80px 0;
   background-repeat: no-repeat;
-  background-position: left top;
-  background-attachment: fixed;
+  background-position: center center;
+  // background-attachment: fixed;
   background-size: cover;
 
   @include media-breakpoint-up(md){
@@ -57,7 +57,7 @@ body{
 }
 
 .bloc-home-header{
-  background-image: url("../images/home-header.jpg")
+  background-image: url("../images/home-header-2.jpg")
 }
 
 
@@ -68,6 +68,17 @@ body{
 .navbar-text{
   font-weight: 200;
   font-size: $font-size-lg;
+  @include media-breakpoint-up(lg){
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.navbar .btn{
+  @include media-breakpoint-up(lg){
+    margin-left: auto;
+  }
 }
 
 .navbar-toggler-right{
@@ -117,6 +128,18 @@ body{
 
   @include media-breakpoint-down(md){
     display: block;
+  }
+}
+
+// List
+//
+//
+
+ol > li{
+  margin-bottom: 1rem;
+
+  > ol > li{
+    margin-bottom: 0;
   }
 }
 
