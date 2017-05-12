@@ -1,5 +1,3 @@
-# KURO Global Mobility
-
 KURO provides bespoke, premium ground transportation solutions in accordance with client-specific requirements and in compliance with company and industry standards.
 
 Tailored towards the world’s most discerning corporate travel arrangers, private jet operators, protocol managers, and personal assistants, KURO delivers all the necessary resources to handle premium ground transportation requirements for assignments ranging from individual transfer services to pharmaceutical congresses with over 1000 guests. 

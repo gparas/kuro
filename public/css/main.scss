@@ -44,20 +44,20 @@ body{
 
 .bloc-header{
   position: relative;
-  padding: 80px 0;
+  padding: 6rem 0;
   background-repeat: no-repeat;
   background-position: center center;
   // background-attachment: fixed;
   background-size: cover;
 
   @include media-breakpoint-up(md){
-    padding-top: $spacer-y * 15;
-    padding-bottom: $spacer-y * 15;
+    padding-top: $spacer-y * 16;
+    padding-bottom: $spacer-y * 16;
   }
 }
 
 .bloc-home-header{
-  background-image: url("../images/home-header-2.jpg")
+  background-image: url("../images/home-header-3.jpg")
 }
 
 
@@ -72,6 +72,19 @@ body{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  > span {
+    display: block;
+    @include media-breakpoint-up(lg){
+      display: inline-block;
+      margin-left: .5rem;
+
+      &:before{
+        content: "|";
+        padding-right: .5rem;
+      }
+    }
   }
 }
 
