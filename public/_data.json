@@ -1,0 +1,34 @@
+{
+  "Anton": {
+  	"name": "Anton Schultz",
+  	"title": "Chief Executive Officer",
+  	"mail": "anton.schultz@kuroglobal.com",
+  	"mobile": "Cell.: +49 1782 608990",
+  	"phone": "24/7 Hotline: +49 3222 1097321",
+  	"site": "www.kuroglobal.com"
+  },
+	"Stefan": {
+  	"name": "Stefan Schultz",
+  	"title": "Chief Operating Officer",
+  	"mail": "stefan.schultz@kuroglobal.com",
+  	"mobile": "Cell.: +49 1525 5464033",
+  	"phone": "24/7 Hotline: +49 3222 1097321",
+  	"site": "www.kuroglobal.com"
+  },
+	"Andreas": {
+  	"name": "Andreas Maier",
+  	"title": "Chief Financial Officer",
+  	"mail": "andreas.maier@kuroglobal.com",
+  	"mobile": "Cell.: +49 1762 4210439",
+  	"phone": "24/7 Hotline: +49 3222 1097321",
+  	"site": "www.kuroglobal.com"
+  },
+  "Thomas": {
+  	"name": "Thomas Klott",
+  	"title": "Chief Operating Officer",
+  	"mail": "thomas.klott@kuroglobal.com",
+  	"mobile": "Cell.: +49 1716 850839",
+  	"phone": "24/7 Hotline: +49 3222 1097321",
+  	"site": "www.kuroglobal.com"
+  }
+}

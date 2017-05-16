@@ -1,0 +1,47 @@
+h1 Signatures
+
+each profile in public._data
+  table(border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;border: none;")
+    tr
+      td(width="100" valign="top" style="padding: 0 16px 0 0;")
+       img(width="100" style="height: auto;border: 0;outline: none;" src="http://www.kuroglobal.com/images/logo-square.png" alt="logo")
+      td(valign="top" style="font-family: Helvetica,Arial,sans-serif;font-size: 12px;line-height: 150%;font-weight: bold;padding: 0 0 0 8px; border-left: 1px solid #000000;")
+        span(style="font-size: 16px;")= profile.name
+        br
+        span(style='font-weight:normal;')= profile.title
+        br
+        br
+        = profile.phone
+        br
+        = profile.mobile
+        br
+        a(href="www.kuroglobal.com" target="_blank" style="color: #000000; text-decoration: none;")= profile.site 
+        br
+        = profile.mail
+  br
+  br
+  br
+  br
+
+each profile in public._data
+  table(border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;border: none;")
+    tr
+      td(width="75" valign="top" style="padding: 0 16px 0 0;")
+       img(width="75" style="height: auto;border: 0;outline: none;" src="http://www.kuroglobal.com/images/logo-square.png" alt="logo")
+      td(valign="top" style="font-family: Helvetica,Arial,sans-serif;font-size: 12px;line-height: 150%;font-weight: bold;padding: 0 0 0 8px; border-left: 1px solid #000000;")
+        span(style="font-size: 16px;")= profile.name
+        br
+        span(style='font-weight:normal;')= profile.title
+        br
+        br
+        = profile.phone
+        | &nbsp;&nbsp;|&nbsp;&nbsp;
+        = profile.mobile
+        br
+        a(href="www.kuroglobal.com" target="_blank" style="color: #000000; text-decoration: none;")= profile.site 
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        = profile.mail
+  br
+  br
+  br
+  br
